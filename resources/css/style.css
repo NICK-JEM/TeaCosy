@@ -1,10 +1,14 @@
-*{
+* {
   font-family: "Helvetica", sans-serif;
-  font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
 }
 
 header {
@@ -16,19 +20,38 @@ header {
   border-bottom: 1px solid seashell;
   display: inline-flex;
   justify-content: space-between;
+  opacity: 0.9;
+  margin-bottom: 1px;
 }
 
 .logo {
   height: 50px;
-  padding: 11px 20px 8px 10px;
+  padding: 11px 20px 8px 2vw;
 }
 
 nav {
-    margin-right: 15px;
+  margin-right: 2vw;
 }
 
 .navigation li {
   display: inline;
   padding: 10px;
+  font-size: 22px;
 }
 
+#banner {
+  background-image: url("../images/img-mission-background.webp");
+  background-color: #cccccc;
+  height: 700px;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 70px;
+}
+
+.titleBox {
+  height: 100px;
+  min-width: 1200px;
+  position: relative;
+  top: 300px;
+  display: inline-block;
+}
