@@ -8,7 +8,7 @@
 body {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  align-items: center;
 }
 
 header {
@@ -43,15 +43,40 @@ nav {
   background-image: url("../images/img-mission-background.webp");
   background-color: #cccccc;
   height: 700px;
-  max-width: 1200px;
-  min-width: 1200px;
-  margin: 70px;
+  width: 1200px;
+  margin: 62px 0px 15px 0px;
 }
 
 .titleBox {
   height: 100px;
-  min-width: 1200px;
+  width: 1200px;
   position: relative;
   top: 300px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleBox h2, .titleBox h4 {
+    margin: 18px 0px 2px 0px;
+}
+
+.menuItems {
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuTitle {
+    width: 1000px;
+}
+
+.items {
+    width: 300px;
+    margin: 10px;
+}
+
+.items img {
+    height: 200px;
 }
