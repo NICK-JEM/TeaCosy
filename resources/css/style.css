@@ -57,26 +57,81 @@ nav {
 }
 
 .titleBox h2, .titleBox h4 {
-    margin: 18px 0px 2px 0px;
+  margin: 18px 0px 2px 0px;
 }
 
 .menuItems {
-    width: 1000px;
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 1000px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menuTitle {
-    width: 1000px;
+  width: 1000px;
 }
 
 .items {
-    width: 300px;
-    margin: 10px;
+  width: 300px;
+  margin: 10px;
 }
 
 .items img {
-    height: 200px;
+  height: 200px;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.webp");
+  background-color: #cccccc;
+  height: 500px;
+  width: 1200px;
+  margin: 20px 0px 200px 0px;
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center; 
+}
+
+.locations h2 {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 80px;
+
+}
+
+.addresses {
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.box {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 15px 20px 15px 20px;
+  opacity: 1;  
+}
+
+address {
+  line-height: 1.5em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 200px;
+}
+
+footer h5 {
+    line-height: 2em;
+}
+
+#copyright {
+  text-align: left;
+  margin: 30px 20px 30px 20px;
 }
